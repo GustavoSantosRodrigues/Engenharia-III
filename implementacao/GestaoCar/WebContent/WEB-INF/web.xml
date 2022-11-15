@@ -9,4 +9,18 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Controle</display-name>
+    <servlet-name>Controle</servlet-name>
+    <servlet-class>gestap.controle.web.Controle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controle</servlet-name>
+    <url-pattern>/Controle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Controle</servlet-name>
+    <url-pattern>/Automovel</url-pattern>
+  </servlet-mapping>
 </web-app>

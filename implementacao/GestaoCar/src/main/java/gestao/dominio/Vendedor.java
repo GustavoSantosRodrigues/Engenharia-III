@@ -1,10 +1,8 @@
-package Classes.Entidade;
+package gestao.dominio;
 
-import Classes.util.String;
 import java.util.Collection;
-import Classes.util.Postagem;
 
-public class Vendedor implements EntidadeDominio {
+public class Vendedor extends EntidadeDominio {
 
 	private String cpf;
 
@@ -16,8 +14,63 @@ public class Vendedor implements EntidadeDominio {
 
 	private Endereco endereco;
 
-	private Collection<Postagem> postagem;
-
 	private Collection<Automovel> automovel;
+	
+	
+	public Vendedor() {
+		
+	}
+	
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
+	public Collection<Automovel> getAutomovel() {
+		return automovel;
+	}
+
+	public void setAutomovel(Collection<Automovel> automovel) {
+		this.automovel = automovel;
+	}
+	
+	
+	
 
 }

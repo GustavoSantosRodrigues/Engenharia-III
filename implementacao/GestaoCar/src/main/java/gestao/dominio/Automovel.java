@@ -24,7 +24,7 @@ public class Automovel extends EntidadeDominio {
 
 	private Vendedor vendedor;
 
-	private ModeloAutomovel.OpcionaisVeiculo opcionaisVeiculo;
+	private OpcionaisVeiculo opcionaisVeiculo;
 	
 	
 	
@@ -122,11 +122,11 @@ public class Automovel extends EntidadeDominio {
 		this.vendedor = vendedor;
 	}
 
-	public ModeloAutomovel.OpcionaisVeiculo getOpcionaisVeiculo() {
+	public OpcionaisVeiculo getOpcionaisVeiculo() {
 		return opcionaisVeiculo;
 	}
 
-	public void setOpcionaisVeiculo(ModeloAutomovel.OpcionaisVeiculo opcionaisVeiculo) {
+	public void setOpcionaisVeiculo(OpcionaisVeiculo opcionaisVeiculo) {
 		this.opcionaisVeiculo = opcionaisVeiculo;
 	}
 	

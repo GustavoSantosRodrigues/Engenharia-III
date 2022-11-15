@@ -27,25 +27,110 @@ public class ModeloAutomovel extends EntidadeDominio {
 	private Marca marca;
 
 	private TipoAutomovel tipoAutomovel;
-
-	public class OpcionaisVeiculo implements EntidadeDominio {
-
-		private boolean aquecedor;
-
-		private boolean arcondicionado;
-
-		private boolean airBag;
-
-		private boolean alarme;
-
-		private boolean direcaoHidraulica;
-
-		private boolean freioABS;
-
-		private boolean tracao4x4;
-
-		private Automovel automovel;
-
+	
+	
+	public ModeloAutomovel() {
+		
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getAno_lancamento() {
+		return ano_lancamento;
+	}
+
+	public void setAno_lancamento(String ano_lancamento) {
+		this.ano_lancamento = ano_lancamento;
+	}
+
+	public String getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(String potencia) {
+		this.potencia = potencia;
+	}
+
+	public String getTipoCambio() {
+		return TipoCambio;
+	}
+
+	public void setTipoCambio(String tipoCambio) {
+		TipoCambio = tipoCambio;
+	}
+
+	public int getAcento() {
+		return acento;
+	}
+
+	public void setAcento(int acento) {
+		this.acento = acento;
+	}
+
+	public int getPortas() {
+		return portas;
+	}
+
+	public void setPortas(int portas) {
+		this.portas = portas;
+	}
+
+	public float getMedia_preco() {
+		return media_preco;
+	}
+
+	public void setMedia_preco(float media_preco) {
+		this.media_preco = media_preco;
+	}
+
+	public String getCombustivel() {
+		return combustivel;
+	}
+
+	public void setCombustivel(String combustivel) {
+		this.combustivel = combustivel;
+	}
+
+	public float getKmLitro() {
+		return kmLitro;
+	}
+
+	public void setKmLitro(float kmLitro) {
+		this.kmLitro = kmLitro;
+	}
+
+	public Collection<Automovel> getAutomovel() {
+		return automovel;
+	}
+
+	public void setAutomovel(Collection<Automovel> automovel) {
+		this.automovel = automovel;
+	}
+
+	public Marca getMarca() {
+		return marca;
+	}
+
+	public void setMarca(Marca marca) {
+		this.marca = marca;
+	}
+
+	public TipoAutomovel getTipoAutomovel() {
+		return tipoAutomovel;
+	}
+
+	public void setTipoAutomovel(TipoAutomovel tipoAutomovel) {
+		this.tipoAutomovel = tipoAutomovel;
+	}
+
+	
+	
+	
 
 }
