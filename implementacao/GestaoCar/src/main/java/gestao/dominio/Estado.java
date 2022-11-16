@@ -12,6 +12,10 @@ public class Estado extends EntidadeDominio {
 		this.nome = nome;
 	}
 
+	public Estado() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNome() {
 		return nome;
 	}

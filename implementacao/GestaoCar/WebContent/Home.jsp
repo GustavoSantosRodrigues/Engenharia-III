@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>MENU</h1>
-<p><a href="cadastrarCar.jsp" target="_blank">Cadastrar Automovel</a>.</p>
+<p><a href="cadastrarCar.jsp" >Cadastrar Automovel</a>.</p>
 </body>
 </body>
 </html>

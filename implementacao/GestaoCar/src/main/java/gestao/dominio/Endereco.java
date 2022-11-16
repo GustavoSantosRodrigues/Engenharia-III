@@ -13,6 +13,8 @@ public class Endereco extends EntidadeDominio {
 
 	private Vendedor vendedor;
 	
+	private String numero;
+	
 	
 	
 
@@ -23,6 +25,19 @@ public class Endereco extends EntidadeDominio {
 		this.cidade = cidade;
 	}
 
+	public Endereco() {
+		// TODO Auto-generated constructor stub
+	}
+	public String getNumero() {
+		return numero;
+	}
+
+	
+	
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+	
 	public String getLogradouro() {
 		return logradouro;
 	}

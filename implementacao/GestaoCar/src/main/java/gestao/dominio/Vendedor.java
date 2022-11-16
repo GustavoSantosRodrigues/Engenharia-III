@@ -13,6 +13,7 @@ public class Vendedor extends EntidadeDominio {
 	private String telefone;
 
 	private Endereco endereco;
+	
 
 	private Collection<Automovel> automovel;
 	

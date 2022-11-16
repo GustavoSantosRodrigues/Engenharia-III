@@ -21,6 +21,16 @@ public class Cidade extends EntidadeDominio {
 	}
 
 
+	public Cidade(Estado estado) {
+		this.estado = estado;
+	}
+
+
+	public Cidade(String nomeCidade) {
+		this.nome = nomeCidade;
+	}
+
+
 	public String getNome() {
 		return nome;
 	}

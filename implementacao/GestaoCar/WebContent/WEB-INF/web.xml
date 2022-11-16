@@ -13,7 +13,7 @@
     <description></description>
     <display-name>Controle</display-name>
     <servlet-name>Controle</servlet-name>
-    <servlet-class>gestap.controle.web.Controle</servlet-class>
+    <servlet-class>gestao.controle.web.Controle</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Controle</servlet-name>
@@ -21,6 +21,10 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Controle</servlet-name>
-    <url-pattern>/Automovel</url-pattern>
+    <url-pattern>/SalvarAutomovel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Controle</servlet-name>
+    <url-pattern>/SalvarVendedor</url-pattern>
   </servlet-mapping>
 </web-app>
